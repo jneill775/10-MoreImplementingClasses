@@ -127,7 +127,7 @@ class Baby(object):
         if self.timescalled == 1:
             print('Baby ', self.name, 'is awake. Time for food.')
         else:
-            print('Baby ', self.name, 'is gonna die lol feed it.')
+            print('Baby ', self.name, 'is gonna die feed it.')
         self.food += 1
         self.timescalled += 1
 # -----------------------------------------------------------------------------
